@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Navbar} from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="container">
-      <div className="navbar">
-        <button className="open">→</button>
-      </div>
+      <Navbar />
     </div>
   );
 }
